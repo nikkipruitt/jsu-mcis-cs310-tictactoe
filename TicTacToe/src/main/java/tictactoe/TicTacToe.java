@@ -2,9 +2,8 @@ package tictactoe;
 
 public class TicTacToe {
 	private String[][] board;
-	private String player;
+	public String player;
 	private boolean isWon = false;
-	private boolean isTie = false;
 	
 	public static void main(String[] args) {
 		TicTacToe game = new TicTacToe();
@@ -24,6 +23,7 @@ public class TicTacToe {
 	
 	public void markLocation(int row, int col) {
 		board[row][col] = player;
+		changePlayer();
 	}
 	
 	public String getLocation(int row, int col) {
@@ -41,7 +41,7 @@ public class TicTacToe {
 		}
 	}
 	
-	public void changePlayer(String player) {
+	public void changePlayer() {
 		if(player == "X") {
 			player = "O";
 		}
@@ -70,7 +70,7 @@ public class TicTacToe {
 		if(isWon == true) {
 			return player;
 		}
-		else{
+		else {
 			return "TIE";
 		}
 	}

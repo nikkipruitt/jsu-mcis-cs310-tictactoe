@@ -25,9 +25,9 @@ public class TicTacToeTest {
 		TicTacToe game = new TicTacToe();
 		game.startNewGame();
 		game.markLocation(1,1);
-		game.changePlayer(game.getLocation(1,1));
 		game.markLocation(0,0);
-		assertEquals("X", game.getLocation(0,0));
+		game.markLocation(2,2);
+		assertEquals("X", game.getLocation(2,2));
 	}
 	
 	@Test
@@ -35,7 +35,9 @@ public class TicTacToeTest {
 		TicTacToe game = new TicTacToe();
 		game.startNewGame();
 		game.markLocation(0,0);
+		game.markLocation(0,1);
 		game.markLocation(1,1);
+		game.markLocation(0,2);
 		game.markLocation(2,2);
 		game.diagonalWin();
 		assertEquals("X", game.getWinner(game.diagonalWin()));
@@ -45,11 +47,31 @@ public class TicTacToeTest {
 	public void testHorizontalWin() {
 		TicTacToe game = new TicTacToe();
 		game.startNewGame();
+		game.markLocation(1,1);
 		game.markLocation(2,0);
+		game.markLocation(0,0);
 		game.markLocation(2,2);
+		game.markLocation(0,2);
 		game.markLocation(2,1);
 		game.horizontalWin();
-		assertEquals("X", game.getWinner(game.horizontalWin()));
+		assertEquals("O", game.getWinner(game.horizontalWin()));
+	}
+	
+	@Test
+	public void testForTie() {
+		TicTacToe game = new TicTacToe();
+		game.startNewGame();
+		game.markLocation(1,1);
+		game.markLocation(0,0);
+		game.markLocation(2,0);
+		game.markLocation(0,2);
+		game.markLocation(0,1);
+		game.markLocation(2,1);
+		game.markLocation(1,2);
+		game.markLocation(1,0);
+		game.markLocation(2,2);
+		game.diagonalWin();
+		assertEquals("TIE", game.getWinner(game.diagonalWin()));
 	}
 	
 }
