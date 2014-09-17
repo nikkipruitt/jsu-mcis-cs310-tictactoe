@@ -89,14 +89,14 @@ public class TicTacToeTest {
 	public void testHorizontalWinTop() {
 		TicTacToe game = new TicTacToe();
 		game.startNewGame();
-		game.markLocation(2,2);
 		game.markLocation(0,2);
-		game.markLocation(1,0);
+		game.markLocation(2,2);
 		game.markLocation(0,1);
-		game.markLocation(2,1);
+		game.markLocation(1,0);
 		game.markLocation(0,0);
+		game.markLocation(2,1);
 		game.checkForWin();
-		assertEquals("O", game.getWinner());
+		assertEquals("X", game.getWinner());
 	}
 	
 	@Test
