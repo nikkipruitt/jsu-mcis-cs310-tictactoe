@@ -1,10 +1,16 @@
 import tictactoe.*;
 
 public class TicTacToeKeywords {
-	TicTacToe game = new TicTacToe();
+	private TicTacToe game;
+	private TicTacToeGUI guiGame;
+	
+	public void startApplication() {
+		game = new TicTacToe();
+		guiGame = new TicTacToeGUI();
+	}
 	
 	public void startNewGame() {
-		game.startNewGame();
+		startApplication();
 	}
 	
 	public void markLocation(int row, int col) {

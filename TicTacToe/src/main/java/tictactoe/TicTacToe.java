@@ -88,4 +88,8 @@ public class TicTacToe {
 		return winner;
 	}
 	
+	public int getNumTurns() {
+		return turns;
+	}
+	
 }

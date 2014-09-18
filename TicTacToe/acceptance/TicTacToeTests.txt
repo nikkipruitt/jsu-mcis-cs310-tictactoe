@@ -3,7 +3,7 @@ Library           SwingLibrary
 
 *** User Keywords ***
 Start New Game
-    Start Application   tictactoe.TicTacToeGame
+    Start Application   tictactoe.TicTacToeGUI
     Select Window       Tic Tac Toe
 
 Mark Location   [Arguments]     ${row}      ${col}

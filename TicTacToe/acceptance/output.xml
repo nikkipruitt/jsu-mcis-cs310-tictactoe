@@ -1,190 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 2.8.5 (Jython 2.5.3 on java1.7.0_51)" generated="20140917 20:12:56.467">
+<robot generator="Robot 2.8.5 (Jython 2.5.3 on java1.7.0_51)" generated="20140917 23:54:52.455">
 <suite source="/Users/Nikki/github/jsu-mcis-cs310-tictactoe/TicTacToe/acceptance/TicTacToeTests.txt" id="s1" name="TicTacToeTests">
 <test id="s1-t1" name="Win Main Diagonally as X">
 <kw type="kw" name="Start New Game">
 <doc></doc>
 <arguments>
 </arguments>
-<kw type="kw" name="Start Application">
-<doc></doc>
+<kw type="kw" name="SwingLibrary.Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
 <arguments>
-<arg>tictactoe.TicTacToeGame</arg>
+<arg>tictactoe.TicTacToeGUI</arg>
 </arguments>
-<msg timestamp="20140917 20:12:57.122" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140917 20:12:57.123" starttime="20140917 20:12:57.121"></status>
+<msg timestamp="20140917 23:54:54.365" level="FAIL">RuntimeException</msg>
+<status status="FAIL" endtime="20140917 23:54:54.366" starttime="20140917 23:54:53.922"></status>
 </kw>
-<status status="FAIL" endtime="20140917 20:12:57.124" starttime="20140917 20:12:57.116"></status>
+<status status="FAIL" endtime="20140917 23:54:54.370" starttime="20140917 23:54:53.919"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140917 20:12:57.125" starttime="20140917 20:12:57.110">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 23:54:54.373" starttime="20140917 23:54:53.915">RuntimeException</status>
 </test>
 <test id="s1-t2" name="Win Reverse Diagonally as O">
 <kw type="kw" name="Start New Game">
 <doc></doc>
 <arguments>
 </arguments>
-<kw type="kw" name="Start Application">
-<doc></doc>
+<kw type="kw" name="SwingLibrary.Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
 <arguments>
-<arg>tictactoe.TicTacToeGame</arg>
+<arg>tictactoe.TicTacToeGUI</arg>
 </arguments>
-<msg timestamp="20140917 20:12:57.137" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140917 20:12:57.138" starttime="20140917 20:12:57.136"></status>
+<msg timestamp="20140917 23:54:54.418" level="FAIL">RuntimeException</msg>
+<status status="FAIL" endtime="20140917 23:54:54.419" starttime="20140917 23:54:54.385"></status>
 </kw>
-<status status="FAIL" endtime="20140917 20:12:57.139" starttime="20140917 20:12:57.133"></status>
+<status status="FAIL" endtime="20140917 23:54:54.420" starttime="20140917 23:54:54.381"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140917 20:12:57.140" starttime="20140917 20:12:57.128">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 23:54:54.421" starttime="20140917 23:54:54.375">RuntimeException</status>
 </test>
 <test id="s1-t3" name="Win First Vertically as X">
 <kw type="kw" name="Start New Game">
 <doc></doc>
 <arguments>
 </arguments>
-<kw type="kw" name="Start Application">
-<doc></doc>
+<kw type="kw" name="SwingLibrary.Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
 <arguments>
-<arg>tictactoe.TicTacToeGame</arg>
+<arg>tictactoe.TicTacToeGUI</arg>
 </arguments>
-<msg timestamp="20140917 20:12:57.156" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140917 20:12:57.157" starttime="20140917 20:12:57.156"></status>
+<msg timestamp="20140917 23:54:54.465" level="FAIL">RuntimeException</msg>
+<status status="FAIL" endtime="20140917 23:54:54.465" starttime="20140917 23:54:54.435"></status>
 </kw>
-<status status="FAIL" endtime="20140917 20:12:57.158" starttime="20140917 20:12:57.152"></status>
+<status status="FAIL" endtime="20140917 23:54:54.467" starttime="20140917 23:54:54.431"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140917 20:12:57.159" starttime="20140917 20:12:57.146">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 23:54:54.468" starttime="20140917 23:54:54.426">RuntimeException</status>
 </test>
 <test id="s1-t4" name="Win Second Vertically as X">
 <kw type="kw" name="Start New Game">
 <doc></doc>
 <arguments>
 </arguments>
-<kw type="kw" name="Start Application">
-<doc></doc>
+<kw type="kw" name="SwingLibrary.Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
 <arguments>
-<arg>tictactoe.TicTacToeGame</arg>
+<arg>tictactoe.TicTacToeGUI</arg>
 </arguments>
-<msg timestamp="20140917 20:12:57.173" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140917 20:12:57.174" starttime="20140917 20:12:57.172"></status>
+<msg timestamp="20140917 23:54:54.510" level="FAIL">RuntimeException</msg>
+<status status="FAIL" endtime="20140917 23:54:54.511" starttime="20140917 23:54:54.480"></status>
 </kw>
-<status status="FAIL" endtime="20140917 20:12:57.175" starttime="20140917 20:12:57.168"></status>
+<status status="FAIL" endtime="20140917 23:54:54.512" starttime="20140917 23:54:54.477"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140917 20:12:57.176" starttime="20140917 20:12:57.162">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 23:54:54.513" starttime="20140917 23:54:54.471">RuntimeException</status>
 </test>
 <test id="s1-t5" name="Win Third Vertically as O">
 <kw type="kw" name="Start New Game">
 <doc></doc>
 <arguments>
 </arguments>
-<kw type="kw" name="Start Application">
-<doc></doc>
+<kw type="kw" name="SwingLibrary.Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
 <arguments>
-<arg>tictactoe.TicTacToeGame</arg>
+<arg>tictactoe.TicTacToeGUI</arg>
 </arguments>
-<msg timestamp="20140917 20:12:57.190" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140917 20:12:57.191" starttime="20140917 20:12:57.189"></status>
+<msg timestamp="20140917 23:54:54.549" level="FAIL">RuntimeException</msg>
+<status status="FAIL" endtime="20140917 23:54:54.550" starttime="20140917 23:54:54.522"></status>
 </kw>
-<status status="FAIL" endtime="20140917 20:12:57.192" starttime="20140917 20:12:57.186"></status>
+<status status="FAIL" endtime="20140917 23:54:54.551" starttime="20140917 23:54:54.519"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140917 20:12:57.193" starttime="20140917 20:12:57.179">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 23:54:54.553" starttime="20140917 23:54:54.514">RuntimeException</status>
 </test>
 <test id="s1-t6" name="Win First Horizontally as X">
 <kw type="kw" name="Start New Game">
 <doc></doc>
 <arguments>
 </arguments>
-<kw type="kw" name="Start Application">
-<doc></doc>
+<kw type="kw" name="SwingLibrary.Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
 <arguments>
-<arg>tictactoe.TicTacToeGame</arg>
+<arg>tictactoe.TicTacToeGUI</arg>
 </arguments>
-<msg timestamp="20140917 20:12:57.209" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140917 20:12:57.210" starttime="20140917 20:12:57.207"></status>
+<msg timestamp="20140917 23:54:54.603" level="FAIL">RuntimeException</msg>
+<status status="FAIL" endtime="20140917 23:54:54.603" starttime="20140917 23:54:54.563"></status>
 </kw>
-<status status="FAIL" endtime="20140917 20:12:57.211" starttime="20140917 20:12:57.202"></status>
+<status status="FAIL" endtime="20140917 23:54:54.604" starttime="20140917 23:54:54.559"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140917 20:12:57.213" starttime="20140917 20:12:57.195">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 23:54:54.606" starttime="20140917 23:54:54.555">RuntimeException</status>
 </test>
 <test id="s1-t7" name="Win Second Horizontally as O">
 <kw type="kw" name="Start New Game">
 <doc></doc>
 <arguments>
 </arguments>
-<kw type="kw" name="Start Application">
-<doc></doc>
+<kw type="kw" name="SwingLibrary.Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
 <arguments>
-<arg>tictactoe.TicTacToeGame</arg>
+<arg>tictactoe.TicTacToeGUI</arg>
 </arguments>
-<msg timestamp="20140917 20:12:57.225" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140917 20:12:57.225" starttime="20140917 20:12:57.224"></status>
+<msg timestamp="20140917 23:54:54.647" level="FAIL">RuntimeException</msg>
+<status status="FAIL" endtime="20140917 23:54:54.648" starttime="20140917 23:54:54.618"></status>
 </kw>
-<status status="FAIL" endtime="20140917 20:12:57.226" starttime="20140917 20:12:57.220"></status>
+<status status="FAIL" endtime="20140917 23:54:54.650" starttime="20140917 23:54:54.614"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140917 20:12:57.227" starttime="20140917 20:12:57.216">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 23:54:54.651" starttime="20140917 23:54:54.608">RuntimeException</status>
 </test>
 <test id="s1-t8" name="Win Third Horizontally as O">
 <kw type="kw" name="Start New Game">
 <doc></doc>
 <arguments>
 </arguments>
-<kw type="kw" name="Start Application">
-<doc></doc>
+<kw type="kw" name="SwingLibrary.Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
 <arguments>
-<arg>tictactoe.TicTacToeGame</arg>
+<arg>tictactoe.TicTacToeGUI</arg>
 </arguments>
-<msg timestamp="20140917 20:12:57.242" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140917 20:12:57.242" starttime="20140917 20:12:57.241"></status>
+<msg timestamp="20140917 23:54:54.698" level="FAIL">RuntimeException</msg>
+<status status="FAIL" endtime="20140917 23:54:54.698" starttime="20140917 23:54:54.664"></status>
 </kw>
-<status status="FAIL" endtime="20140917 20:12:57.243" starttime="20140917 20:12:57.237"></status>
+<status status="FAIL" endtime="20140917 23:54:54.699" starttime="20140917 23:54:54.659"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140917 20:12:57.245" starttime="20140917 20:12:57.229">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 23:54:54.700" starttime="20140917 23:54:54.653">RuntimeException</status>
 </test>
 <test id="s1-t9" name="Force a Tie">
 <kw type="kw" name="Start New Game">
 <doc></doc>
 <arguments>
 </arguments>
-<kw type="kw" name="Start Application">
-<doc></doc>
+<kw type="kw" name="SwingLibrary.Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
 <arguments>
-<arg>tictactoe.TicTacToeGame</arg>
+<arg>tictactoe.TicTacToeGUI</arg>
 </arguments>
-<msg timestamp="20140917 20:12:57.260" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140917 20:12:57.260" starttime="20140917 20:12:57.259"></status>
+<msg timestamp="20140917 23:54:54.736" level="FAIL">RuntimeException</msg>
+<status status="FAIL" endtime="20140917 23:54:54.737" starttime="20140917 23:54:54.709"></status>
 </kw>
-<status status="FAIL" endtime="20140917 20:12:57.261" starttime="20140917 20:12:57.254"></status>
+<status status="FAIL" endtime="20140917 23:54:54.738" starttime="20140917 23:54:54.705"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140917 20:12:57.262" starttime="20140917 20:12:57.247">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 23:54:54.739" starttime="20140917 23:54:54.702">RuntimeException</status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="FAIL" endtime="20140917 20:12:57.268" starttime="20140917 20:12:56.473"></status>
+<status status="FAIL" endtime="20140917 23:54:54.744" starttime="20140917 23:54:52.466"></status>
 </suite>
 <statistics>
 <total>
