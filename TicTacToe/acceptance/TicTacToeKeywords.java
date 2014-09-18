@@ -1,7 +1,7 @@
 import tictactoe.*;
 
 public class TicTacToeKeywords {
-	private TicTacToe game = new TicTacToe();
+	TicTacToe game = new TicTacToe();
 	
 	public void startNewGame() {
 		game.startNewGame();
@@ -12,11 +12,12 @@ public class TicTacToeKeywords {
 	}
 	
 	public String getLocation(int row, int col) {
-		return game.getLocation(row,col);
+		return game.getLocation(row, col);
 	}
 	
 	public String getWinner() {
-		return game.getWinner();	
+		return game.getWinner();
 	}
+	
 	
 }

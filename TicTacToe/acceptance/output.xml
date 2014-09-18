@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 2.8.5 (Jython 2.5.3 on java1.7.0_51)" generated="20140916 21:35:29.419">
-<suite source="/Users/Nikki/github/jsu-mcis-cs310-tictactoe/TicTacToe/acceptance/TicTacToeTests2.txt" id="s1" name="TicTacToeTests2">
+<robot generator="Robot 2.8.5 (Jython 2.5.3 on java1.7.0_51)" generated="20140917 20:12:56.467">
+<suite source="/Users/Nikki/github/jsu-mcis-cs310-tictactoe/TicTacToe/acceptance/TicTacToeTests.txt" id="s1" name="TicTacToeTests">
 <test id="s1-t1" name="Win Main Diagonally as X">
 <kw type="kw" name="Start New Game">
 <doc></doc>
@@ -11,15 +11,15 @@
 <arguments>
 <arg>tictactoe.TicTacToeGame</arg>
 </arguments>
-<msg timestamp="20140916 21:35:30.526" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140916 21:35:30.528" starttime="20140916 21:35:30.523"></status>
+<msg timestamp="20140917 20:12:57.122" level="FAIL">No keyword with name 'Start Application' found.</msg>
+<status status="FAIL" endtime="20140917 20:12:57.123" starttime="20140917 20:12:57.121"></status>
 </kw>
-<status status="FAIL" endtime="20140916 21:35:30.531" starttime="20140916 21:35:30.515"></status>
+<status status="FAIL" endtime="20140917 20:12:57.124" starttime="20140917 20:12:57.116"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140916 21:35:30.534" starttime="20140916 21:35:30.506">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 20:12:57.125" starttime="20140917 20:12:57.110">No keyword with name 'Start Application' found.</status>
 </test>
 <test id="s1-t2" name="Win Reverse Diagonally as O">
 <kw type="kw" name="Start New Game">
@@ -31,15 +31,15 @@
 <arguments>
 <arg>tictactoe.TicTacToeGame</arg>
 </arguments>
-<msg timestamp="20140916 21:35:30.556" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140916 21:35:30.558" starttime="20140916 21:35:30.554"></status>
+<msg timestamp="20140917 20:12:57.137" level="FAIL">No keyword with name 'Start Application' found.</msg>
+<status status="FAIL" endtime="20140917 20:12:57.138" starttime="20140917 20:12:57.136"></status>
 </kw>
-<status status="FAIL" endtime="20140916 21:35:30.561" starttime="20140916 21:35:30.548"></status>
+<status status="FAIL" endtime="20140917 20:12:57.139" starttime="20140917 20:12:57.133"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140916 21:35:30.564" starttime="20140916 21:35:30.540">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 20:12:57.140" starttime="20140917 20:12:57.128">No keyword with name 'Start Application' found.</status>
 </test>
 <test id="s1-t3" name="Win First Vertically as X">
 <kw type="kw" name="Start New Game">
@@ -51,15 +51,15 @@
 <arguments>
 <arg>tictactoe.TicTacToeGame</arg>
 </arguments>
-<msg timestamp="20140916 21:35:30.584" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140916 21:35:30.585" starttime="20140916 21:35:30.582"></status>
+<msg timestamp="20140917 20:12:57.156" level="FAIL">No keyword with name 'Start Application' found.</msg>
+<status status="FAIL" endtime="20140917 20:12:57.157" starttime="20140917 20:12:57.156"></status>
 </kw>
-<status status="FAIL" endtime="20140916 21:35:30.586" starttime="20140916 21:35:30.576"></status>
+<status status="FAIL" endtime="20140917 20:12:57.158" starttime="20140917 20:12:57.152"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140916 21:35:30.588" starttime="20140916 21:35:30.568">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 20:12:57.159" starttime="20140917 20:12:57.146">No keyword with name 'Start Application' found.</status>
 </test>
 <test id="s1-t4" name="Win Second Vertically as X">
 <kw type="kw" name="Start New Game">
@@ -71,15 +71,15 @@
 <arguments>
 <arg>tictactoe.TicTacToeGame</arg>
 </arguments>
-<msg timestamp="20140916 21:35:30.641" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140916 21:35:30.642" starttime="20140916 21:35:30.639"></status>
+<msg timestamp="20140917 20:12:57.173" level="FAIL">No keyword with name 'Start Application' found.</msg>
+<status status="FAIL" endtime="20140917 20:12:57.174" starttime="20140917 20:12:57.172"></status>
 </kw>
-<status status="FAIL" endtime="20140916 21:35:30.644" starttime="20140916 21:35:30.633"></status>
+<status status="FAIL" endtime="20140917 20:12:57.175" starttime="20140917 20:12:57.168"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140916 21:35:30.646" starttime="20140916 21:35:30.592">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 20:12:57.176" starttime="20140917 20:12:57.162">No keyword with name 'Start Application' found.</status>
 </test>
 <test id="s1-t5" name="Win Third Vertically as O">
 <kw type="kw" name="Start New Game">
@@ -91,15 +91,15 @@
 <arguments>
 <arg>tictactoe.TicTacToeGame</arg>
 </arguments>
-<msg timestamp="20140916 21:35:30.663" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140916 21:35:30.664" starttime="20140916 21:35:30.661"></status>
+<msg timestamp="20140917 20:12:57.190" level="FAIL">No keyword with name 'Start Application' found.</msg>
+<status status="FAIL" endtime="20140917 20:12:57.191" starttime="20140917 20:12:57.189"></status>
 </kw>
-<status status="FAIL" endtime="20140916 21:35:30.666" starttime="20140916 21:35:30.655"></status>
+<status status="FAIL" endtime="20140917 20:12:57.192" starttime="20140917 20:12:57.186"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140916 21:35:30.668" starttime="20140916 21:35:30.650">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 20:12:57.193" starttime="20140917 20:12:57.179">No keyword with name 'Start Application' found.</status>
 </test>
 <test id="s1-t6" name="Win First Horizontally as X">
 <kw type="kw" name="Start New Game">
@@ -111,15 +111,15 @@
 <arguments>
 <arg>tictactoe.TicTacToeGame</arg>
 </arguments>
-<msg timestamp="20140916 21:35:30.687" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140916 21:35:30.688" starttime="20140916 21:35:30.684"></status>
+<msg timestamp="20140917 20:12:57.209" level="FAIL">No keyword with name 'Start Application' found.</msg>
+<status status="FAIL" endtime="20140917 20:12:57.210" starttime="20140917 20:12:57.207"></status>
 </kw>
-<status status="FAIL" endtime="20140916 21:35:30.689" starttime="20140916 21:35:30.679"></status>
+<status status="FAIL" endtime="20140917 20:12:57.211" starttime="20140917 20:12:57.202"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140916 21:35:30.691" starttime="20140916 21:35:30.671">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 20:12:57.213" starttime="20140917 20:12:57.195">No keyword with name 'Start Application' found.</status>
 </test>
 <test id="s1-t7" name="Win Second Horizontally as O">
 <kw type="kw" name="Start New Game">
@@ -131,15 +131,15 @@
 <arguments>
 <arg>tictactoe.TicTacToeGame</arg>
 </arguments>
-<msg timestamp="20140916 21:35:30.708" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140916 21:35:30.710" starttime="20140916 21:35:30.707"></status>
+<msg timestamp="20140917 20:12:57.225" level="FAIL">No keyword with name 'Start Application' found.</msg>
+<status status="FAIL" endtime="20140917 20:12:57.225" starttime="20140917 20:12:57.224"></status>
 </kw>
-<status status="FAIL" endtime="20140916 21:35:30.712" starttime="20140916 21:35:30.702"></status>
+<status status="FAIL" endtime="20140917 20:12:57.226" starttime="20140917 20:12:57.220"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140916 21:35:30.714" starttime="20140916 21:35:30.694">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 20:12:57.227" starttime="20140917 20:12:57.216">No keyword with name 'Start Application' found.</status>
 </test>
 <test id="s1-t8" name="Win Third Horizontally as O">
 <kw type="kw" name="Start New Game">
@@ -151,15 +151,15 @@
 <arguments>
 <arg>tictactoe.TicTacToeGame</arg>
 </arguments>
-<msg timestamp="20140916 21:35:30.732" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140916 21:35:30.732" starttime="20140916 21:35:30.730"></status>
+<msg timestamp="20140917 20:12:57.242" level="FAIL">No keyword with name 'Start Application' found.</msg>
+<status status="FAIL" endtime="20140917 20:12:57.242" starttime="20140917 20:12:57.241"></status>
 </kw>
-<status status="FAIL" endtime="20140916 21:35:30.734" starttime="20140916 21:35:30.724"></status>
+<status status="FAIL" endtime="20140917 20:12:57.243" starttime="20140917 20:12:57.237"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140916 21:35:30.736" starttime="20140916 21:35:30.717">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 20:12:57.245" starttime="20140917 20:12:57.229">No keyword with name 'Start Application' found.</status>
 </test>
 <test id="s1-t9" name="Force a Tie">
 <kw type="kw" name="Start New Game">
@@ -171,20 +171,20 @@
 <arguments>
 <arg>tictactoe.TicTacToeGame</arg>
 </arguments>
-<msg timestamp="20140916 21:35:30.753" level="FAIL">No keyword with name 'Start Application' found.</msg>
-<status status="FAIL" endtime="20140916 21:35:30.754" starttime="20140916 21:35:30.752"></status>
+<msg timestamp="20140917 20:12:57.260" level="FAIL">No keyword with name 'Start Application' found.</msg>
+<status status="FAIL" endtime="20140917 20:12:57.260" starttime="20140917 20:12:57.259"></status>
 </kw>
-<status status="FAIL" endtime="20140916 21:35:30.757" starttime="20140916 21:35:30.746"></status>
+<status status="FAIL" endtime="20140917 20:12:57.261" starttime="20140917 20:12:57.254"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" critical="yes" endtime="20140916 21:35:30.759" starttime="20140916 21:35:30.739">No keyword with name 'Start Application' found.</status>
+<status status="FAIL" critical="yes" endtime="20140917 20:12:57.262" starttime="20140917 20:12:57.247">No keyword with name 'Start Application' found.</status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="FAIL" endtime="20140916 21:35:30.766" starttime="20140916 21:35:29.428"></status>
+<status status="FAIL" endtime="20140917 20:12:57.268" starttime="20140917 20:12:56.473"></status>
 </suite>
 <statistics>
 <total>
@@ -194,7 +194,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="0" id="s1" fail="9" name="TicTacToeTests2">TicTacToeTests2</stat>
+<stat pass="0" id="s1" fail="9" name="TicTacToeTests">TicTacToeTests</stat>
 </suite>
 </statistics>
 <errors>
